@@ -16,4 +16,5 @@ module "gatewise" {
     module.ingress_nginx_controller
   ]
   source = "./gatewise"
+  registry_name = var.registry_name
 }
