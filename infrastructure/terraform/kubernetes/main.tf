@@ -15,6 +15,6 @@ module "gatewise" {
   depends_on = [
     module.ingress_nginx_controller
   ]
-  source = "./gatewise"
+  source        = "./gatewise"
   registry_name = var.registry_name
 }
